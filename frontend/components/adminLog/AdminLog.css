@@ -1,0 +1,50 @@
+.admin-log-section .ReactTable .-pagination .-btn,
+.admin-log-section .ReactTable .-pagination .-pageInfo{
+    display: none;
+}
+.admin-log-section .btn-group {
+    display: flex;
+    justify-content: space-between;
+}
+.admin-log-section .btn-group .btn{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 3px;
+    padding: 6px;
+    font-size: 1em;
+    color: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.1);
+    -webkit-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+    cursor: pointer;
+    outline: none;
+    width: 330px;
+    height: 40px;
+    margin-top: -42px;
+}
+.admin-log-section .btn-group .page-num-section {
+    margin-top: -42px;
+    margin-left: -266px;
+}
+.admin-log-section .btn-group label {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    font-weight: 400;
+    margin: 5px;
+}
+.admin-log-section .btn-group .pageSize {
+    border: 1px solid #ddd;
+    width: 86px;
+    height: 36px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+}

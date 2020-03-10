@@ -1,0 +1,71 @@
+i {
+    cursor: pointer;
+}
+
+.overlay-section {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 99;
+}
+
+.xrate-modal {
+    position: relative;
+    z-index: 999;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.xrate-modal .btn-close {
+    float: right;
+}
+
+.xrate-modal .form-group {
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.xrate-modal .form label, .xrate-modal .form input {
+    font-size: 20px;
+}
+
+.xrate-modal form button {
+    width: 100%;
+    height: 100px;
+    white-space: normal;
+}
+
+#toast-container>.toast-success {
+    background-color: #3caf21;
+    font-size: 14px;
+}
+
+#toast-container>.toast-error {
+    background-color: #ad0b0b;
+    font-size: 14px;
+}
+
+@media(max-width: 991px) {
+    .xrate-modal form button {
+        margin: 3px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .modal-dialog {
+        width: 1000px !important;
+    }
+}
+
+@media(max-width: 1024px) {
+    .modal-dialog {
+        width: 90% !important;
+        margin: 30px auto !important;
+    }
+}

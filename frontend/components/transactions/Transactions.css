@@ -1,0 +1,90 @@
+
+.form{
+	margin:50px
+}
+
+.btn-floating.btn-large.waves-effect.waves-light {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 10px !important;
+    background-color: #337ab7 !important;
+}
+
+.btn-floating.btn-large.waves-effect.waves-light i {
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.daterangepicker .input-mini {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555 !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    display: block !important;
+    vertical-align: middle !important;
+    margin: 0 0 5px 0 !important;
+    padding: 0 6px 0 28px !important;
+	width: 100% ;
+	box-sizing: inherit !important;
+}
+
+.date-input {
+	box-sizing: inherit !important;
+	margin: 0  !important;
+}
+
+.date-button{
+	height: 30px;
+}
+.refund-transaction-modal {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.refund-transaction-modal .btn-close {
+    float: right;
+}
+
+.refund-transaction-modal .form-group {
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.refund-transaction-modal .refund-transaction-form label {
+    min-width: 140px !important;
+    font-size: 20px !important;
+}
+
+.refund-transaction-modal .refund-transaction-form input[type="text"] {
+    font-size: 16px !important;
+}
+
+.refund-transaction-modal .refund-transaction-form .btn {
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+}
+@media(max-width: 767px) {
+    .refund-transaction-modal .form-group {
+        display: block !important
+    }
+}
+.upload-form{
+    padding: 20px;
+}
+.file-reader{
+    float: left;
+    padding-bottom: 20px;
+}
+.file-name{
+    float: left;
+    padding: 15px;
+    font-size: 16px;
+}
+.upload-form .glyphicon {
+    padding-left: 5px;
+}
